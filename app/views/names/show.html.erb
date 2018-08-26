@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Roman letter:</strong>
+  <%= @name.roman_letter %>
+</p>
+
+<p>
+  <strong>Japanese:</strong>
+  <%= @name.japanese %>
+</p>
+
+<p>
+  <strong>Sex:</strong>
+  <%= @name.sex %>
+</p>
+
+<%= link_to 'Edit', edit_name_path(@name) %> |
+<%= link_to 'Back', names_path %>
